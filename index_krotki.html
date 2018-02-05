@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<style>
+.IO_box {
+float: left;
+padding: 5px 5px 5px 5px;
+width: 95%;}
+
+.IO_box {
+float: left;
+padding: 1px 1px 1px 1px;
+width: 95%;}
+
+.button {
+    background-color: #844444; 
+    border: none;
+    color: white;
+    padding: 52px 20px;
+    text-align: center;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+	width: 100%;
+}
+
+.ON {
+    background-color: green;
+}
+.OFF {
+    background-color: red;
+}
+
+
+</style>
+<body>
+<div class="IO_box" >
+<input class="button ON" type="button" name="bl" value="Turn LED ON " onclick="location.href='/ON'">
+</div>
+<div class="IO_box" >
+<input class="button OFF" type="button" name="bl" value="Turn LED OFF" onclick="location.href='/OFF'">
+</div></body></html>

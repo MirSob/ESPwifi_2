@@ -16,6 +16,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ESPwifi_2.ino" />
+    <None Include="index.html" />
+    <None Include="index_esp.html" />
+    <None Include="index_krotki.html" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.ESPwifi_2.vsarduino.h">
